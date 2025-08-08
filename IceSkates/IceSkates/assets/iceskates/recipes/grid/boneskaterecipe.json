@@ -1,0 +1,140 @@
+[
+  {
+    "ingredientPattern": "SPK,BTB",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:clothes-foot-fur-lined-reindeer-herder-shoes",
+        "name": "shoetype",
+        "quantity": 1
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:bone"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:sewingkit"
+      }
+    },
+    "requiresTrait": "clothier",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "clothes-skate-fur-lined-reindeer-herder-shoes"
+    }
+  },
+
+  {
+    "ingredientPattern": "SPK,BTB",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:clothes-foot-knee-high-fur-boots",
+        "name": "shoetype"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:sewingkit"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:bone"
+      }
+    },
+    "requiresTrait": "clothier",
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "clothes-skate-knee-high-fur-boots"
+    }
+  },
+
+  {
+    "ingredientPattern": "SPK,BTB",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:clothes-foot-wool-lined-knee-high-boots",
+        "name": "shoetype"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:sewingkit"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:bone"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "clothes-skate-wool-lined-knee-high-boots"
+    }
+  },
+
+  {
+    "ingredientPattern": "SPK,BTB",
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:clothes-foot-hunter-boots",
+        "name": "shoetype"
+      },
+      "S": {
+        "type": "item",
+        "code": "game:sewingkit"
+      },
+      "K": {
+        "type": "item",
+        "code": "game:knife-*",
+        "isTool": true
+      },
+      "T": {
+        "type": "item",
+        "code": "game:flaxtwine"
+      },
+      "B": {
+        "type": "item",
+        "code": "game:bone"
+      }
+    },
+    "width": 3,
+    "height": 2,
+    "output": {
+      "type": "item",
+      "code": "clothes-skate-hunter-boots"
+    }
+  }
+]

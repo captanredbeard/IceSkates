@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceSkates", "IceSkates\IceSkates\IceSkates.csproj", "{50FDF165-3046-4F5C-8E24-C8CE72BF8E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "IceSkates\ZZCakeBuild\CakeBuild.csproj", "{BECE476F-E806-488B-996A-B6AB88CDEA7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FDF165-3046-4F5C-8E24-C8CE72BF8E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FDF165-3046-4F5C-8E24-C8CE72BF8E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FDF165-3046-4F5C-8E24-C8CE72BF8E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FDF165-3046-4F5C-8E24-C8CE72BF8E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECE476F-E806-488B-996A-B6AB88CDEA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECE476F-E806-488B-996A-B6AB88CDEA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECE476F-E806-488B-996A-B6AB88CDEA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECE476F-E806-488B-996A-B6AB88CDEA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29BC2401-69CF-41C7-8091-1196B6ECFC53}
+	EndGlobalSection
+EndGlobal
