@@ -1,5 +1,4 @@
-﻿using IceSkates.Behavior;
-using IceSkates.Config;
+﻿using IceSkates.Config;
 using System;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
@@ -28,7 +27,7 @@ namespace IceSkates
             Instance = this;
             Api = api;
             
-            api.RegisterEntityBehaviorClass(ModId + ":stamina", typeof(EntityBehaviorDrag));
+            
 
             
             ReloadConfig(api);
@@ -48,14 +47,14 @@ namespace IceSkates
         private void AddEntityBehaviors(Entity entity)
         {
             if (entity is not EntityPlayer) return;
-            if (entity.HasBehavior<EntityBehaviorDrag>()) return;
-            entity.AddBehavior(new EntityBehaviorDrag(entity));
+            //if (entity.HasBehavior<EntityBehaviorDrag>()) return;
+           // entity.AddBehavior(new EntityBehaviorDrag(entity));
         }
 
         private void Event_LevelFinalize()
         {
             // Hook server events for damage and fatigue
-            var ebs = capi.World.Player.Entity.GetBehavior<EntityBehaviorDrag>();
+            //var ebs = capi.World.Player.Entity.GetBehavior<EntityBehaviorDrag>();
             if (ebs != null) ebs.OnFatigued += (ftg, ftgSource) => defenseSystem.HandleFatigued(capi.World.Player, ftg, ftgSource);
             capi.Logger.VerboseDebug("Done item defense stats");
         }
